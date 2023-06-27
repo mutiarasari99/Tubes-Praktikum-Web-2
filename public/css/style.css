@@ -1,0 +1,82 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+.main {
+  background-image: url("../img/background.jpg");
+}
+fieldset {
+  padding-top: 100px;
+  height: 590px;
+  background-color: #a8becc;
+  opacity: 80%;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(38, 96, 122);
+  color: white;
+}
+
+#gallery-klub {
+  align-content: center;
+  text-align: center;
+  font-weight: 300;
+  line-height: 32px;
+  background-color: #a8becc;
+}
+#gallery {
+  padding-top: 70px;
+}
+.gallery-img {
+  width: 300px;
+  height: 400px;
+}
+#contact-us {
+  display: block;
+}
+.contact {
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin: 40px auto;
+  width: 1000px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 32px;
+}
+.card {
+  float: left;
+  text-align: center;
+  width: 500px;
+  padding: 40px;
+}
+.card img {
+  align-self: center;
+  width: 40px;
+}
+footer {
+  bottom: 0;
+  background-color: rgb(38, 96, 122);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 100%;
+  font-weight: 300;
+  position: relative;
+}
+#register {
+  height: 550px;
+}
+#login-user {
+  /* margin-top: 100px; */
+  padding-left: 100px;
+  padding-bottom: 150px;
+}
+.jadwal {
+  display: flex;
+}
